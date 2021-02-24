@@ -24,6 +24,7 @@ go build api.go
 - 封装了rabbitMq(包含了延迟队列方法封装)
 - 封装了redis
 - 封装了es
+- 封装了小程序的相关方法（lib目录下）
 - 基于makefile 的protobuf
 - 服务发现使用的是etcd
 - 更多内容自行挖掘
