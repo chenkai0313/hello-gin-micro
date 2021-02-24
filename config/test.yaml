@@ -1,0 +1,29 @@
+#mysql
+mysql_db_dns: "root:123123123@tcp(127.0.0.1:3306)/test?parseTime=true&charset=utf8mb4&loc=Asia%2FShanghai"
+
+#redis
+redis:
+  hostname: ""
+  database: 1
+  port: 2020
+  password: ""
+
+#server
+server:
+  port: 8081
+  name: "hello-gin-micro"
+
+
+#log_path
+log_path: "./logs/runtime"
+
+
+#es
+es:
+  dns: ""
+  es_goods_index: ""
+
+
+# jaeger
+jaeger:
+  addr: ""
