@@ -15,6 +15,7 @@ go build api.go
 #### 说明
 - 系统基于gin封装的api框架
 - 设计模式仿照php-laravel结构
+- moudles 模块化设计
 - 系统设计目的对接[hello-micro](https://github.com/chenkai0313/hello-micro)微服务框架
 -  默认封装了jaeger (做了改动，配合使用gin使用)，初次使用，可以注释掉
 - 封装了自定义的validator
